@@ -1,0 +1,20 @@
+{
+  "name": "gym_company",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosrodriguez2020/gym_company.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosrodriguez2020/gym_company/issues"
+  },
+  "homepage": "https://github.com/carlosrodriguez2020/gym_company#readme"
+}
