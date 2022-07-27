@@ -1,18 +1,20 @@
 {
   "name": "gym_company",
   "version": "1.0.0",
-  "description": "",
+  "description": "contact management",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js --exec babel-node"
+    "build": "babel src --out-dir built",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carlosrodriguez2020/gym_company.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rodriguez Carlos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/carlosrodriguez2020/gym_company/issues"
